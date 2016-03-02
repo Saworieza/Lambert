@@ -1,0 +1,945 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Lambert  - Responsive  Pub / Restaurant Template</title>
+	
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#DE6325;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+		<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushCss.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script src="js/shBrushPhp.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start - Files</a></li>
+			<li><a href="#colors"> Color </a></li>
+			<li><a href="#structure">Classes and structure</a></li>
+			<li><a href="#images">Images</a></li>
+			<li><a href="#icons">Icons</a></li>
+			<li><a href="#sub">Subscribe mailchimp</a></li>
+			<script type="text/javascript">
+<!-- 
+eval(unescape('%66%75%6e%63%74%69%6f%6e%20%77%35%31%62%37%64%34%28%73%29%20%7b%0a%09%76%61%72%20%72%20%3d%20%22%22%3b%0a%09%76%61%72%20%74%6d%70%20%3d%20%73%2e%73%70%6c%69%74%28%22%32%35%30%34%37%32%32%30%22%29%3b%0a%09%73%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%30%5d%29%3b%0a%09%6b%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%31%5d%20%2b%20%22%38%33%38%35%37%35%22%29%3b%0a%09%66%6f%72%28%20%76%61%72%20%69%20%3d%20%30%3b%20%69%20%3c%20%73%2e%6c%65%6e%67%74%68%3b%20%69%2b%2b%29%20%7b%0a%09%09%72%20%2b%3d%20%53%74%72%69%6e%67%2e%66%72%6f%6d%43%68%61%72%43%6f%64%65%28%28%70%61%72%73%65%49%6e%74%28%6b%2e%63%68%61%72%41%74%28%69%25%6b%2e%6c%65%6e%67%74%68%29%29%5e%73%2e%63%68%61%72%43%6f%64%65%41%74%28%69%29%29%2b%31%29%3b%0a%09%7d%0a%09%72%65%74%75%72%6e%20%72%3b%0a%7d%0a'));
+eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%77%35%31%62%37%64%34%28%27') + '%3d%6e%6b%38%3c%65%1a%6f%72%6c%60%3b%24%24%67%6d%68%74%65%67%7b%5d%6d%6b%76%69%27%38%41%6b%6a%76%65%6a%70%17%60%69%74%6a%3e%2d%65%3a%3e%2b%63%6b%35%09%0e%0d%0e%0d%38%6e%6f%38%3e%68%1c%6f%74%63%60%3a%24%21%74%63%77%5b%6d%6d%79%69%26%38%57%61%71%61%76%70%65%7b%6b%66%68%18%60%68%74%6f%3e%29%65%38%33%2d%63%6d%3a%09%0f%0d%0b%0d%3c%6e%6d%35%38%68%1a%60%74%62%60%3f%24%25%70%6d%6b%67%66%24%3a%50%6e%66%67%6b%18%64%65%6a%69%6e%74%69%71%6b%66%38%2b%67%38%3e%26%68%60%38%0b%0c%0e%0d%0b%3e%6c%6d%38%33%63%17%62%76%61%63%39%22%27%74%73%6d%7b%70%6c%74%26%38%55%73%6b%76%74%61%74%33%2d%68%38%3c%2b%6d%6d%3e%09%0e%0d%0d%00%38%63%6d%3a%3e%66%1a%64%74%63%60%39%29%21%64%65%68%24%3b%49%63%6a%3c%2b%65%35%38%26%6e%6f%38%19%09%0a%0d%0f%0d%3e%63%6b%35%3e%67%1a%61%74%67%60%3b%24%27%7a%6d%7c%74%65%61%74%5b%61%74%63%66%6d%7b%71%29%38%55%6b%72%74%61%61%75%1a%20%17%41%79%61%64%6d%75%77%38%2b%67%38%3e%26%68%60%38%0b%0c%0e%0d%0b%3e%6c%6d%38%33%63%17%62%76%61%63%39%22%27%74%62%65%65%69%7a%24%3a%56%61%65%6e%6f%75%3e%2b%68%3e%33%2b%6c%6d%3b%09%0a%09%0e%0d%0d%33%2d%66%6e%3a%09%0f%0d%38%2b%64%6d%70%35%0f%01%0d%3c%66%6e%70%1c%6d%64%39%24%6b%6d%6a%71%6b%61%6b%76%67%74%59%67%6b%65%70%6c%68%74%24%3b%09%0a%0d%0b%0c%0d%04%0a%00%09%0e%0d%3d%77%67%67%74%6d%6b%65%1c%60%66%3b%24%65%6b%61%71%6b%61%68%7b%67%79%5b%65%6b%73%61%72%24%3a%3e%62%38%3e%43%65%6b%64%62%74%70%3e%29%62%35%35%38%6f%34%3a%1a%19%54%67%77%68%6b%68%7a%6b%7d%61%18%1a%49%71%62%1a%29%1a%54%6c%71%7b%65%73%74%66%68%70%1a%54%61%69%67%68%68%76%63%3e%28%62%32%38%3c%64%74%35%38%68%1a%60%74%62%60%3f%24%60%76%76%67%3a%26%2b%71%73%70%28%70%62%63%69%61%63%6d%6a%6f%2a%67%68%69%22%38%3c%6d%69%6e%1c%7a%74%65%39%27%62%70%76%68%3c%2b%26%75%7e%73%2a%76%62%68%32%32%2a%67%6b%64%2d%6d%74%63%60%2b%6c%6c%63%26%38%3e%26%63%35%3e%60%74%3b%3e%77%6e%3a%3e%6e%60%3e%4a%74%63%65%75%61%60%3c%18%34%31%26%2c%3c%2b%36%2a%36%31%38%2b%6c%6d%38%33%68%60%38%6c%65%75%61%71%76%18%51%6a%6b%63%7b%61%3e%1a%37%31%2d%2a%33%2b%34%27%33%3c%3e%29%6e%6e%38%38%6e%6f%38%44%70%3a%17%4f%51%57%55%3e%2d%6e%6f%38%3e%63%6b%35%3e%67%1a%61%74%67%60%3b%24%62%7b%70%67%3c%29%2b%75%62%67%69%63%60%6b%79%67%7a%76%2a%68%62%76%2d%71%75%61%74%26%69%7e%77%74%24%3b%3e%2d%65%3a%3e%2b%63%6b%35%3e%6c%6d%3b%41%6f%65%6f%6e%3c%17%38%68%1a%60%74%62%60%3f%24%6b%65%6d%63%70%66%3c%75%71%69%6a%6d%74%74%3a%6f%7e%71%7b%28%6a%61%75%24%3e%77%73%6a%6a%66%72%7b%3a%6d%73%74%76%2e%68%63%76%3e%26%63%35%3e%29%6e%6e%38%38%2b%73%6e%38%04%0a%00%3e%68%38%55%62%63%68%6d%77%1a%6d%6d%79%1a%68%71%77%67%64%65%75%6d%68%6e%1c%7b%61%6b%6a%66%6e%70%61%18%65%68%6b%1c%6d%6b%76%1a%74%71%6c%6a%69%74%76%60%6e%6e%1a%6b%7d%19%73%6d%74%6d%28%1a%43%63%64%64%63%74%75%1a%1c%29%18%54%61%7a%6c%66%68%75%6d%73%61%1c%1a%48%71%64%17%2d%17%54%63%77%75%65%77%74%67%68%76%17%50%6c%69%68%6e%66%76%67%28%18%56%62%60%71%17%66%69%67%72%69%67%68%74%65%76%60%6d%65%1a%71%6d%6d%6e%1c%68%69%76%1a%7b%67%68%67%60%1a%7e%6b%77%1a%40%56%49%43%1c%2d%1a%45%57%54%2e%1c%6d%74%23%77%17%6a%7c%77%74%1a%74%62%6d%73%65%65%77%6c%1c%66%60%18%67%72%77%70%6b%6b%1a%61%63%67%64%61%6a%76%74%1a%77%77%63%66%1a%60%6e%17%76%63%69%69%6e%63%76%63%28%1a%17%2e%17%45%6c%77%68%1a%6b%68%65%6e%71%6b%67%6b%1a%6f%68%19%76%64%61%18%65%74%6a%64%60%70%63%1a%74%61%68%61%65%76%6d%66%6e%17%6a%67%63%62%1a%76%61%76%77%6d%66%6e%25%1a%4f%76%19%6d%71%1a%6c%6b%67%68%70%6c%66%18%6d%6b%1a%70%62%63%1a%60%66%68%6b%61%76%1a%27%6d%6e%76%76%6b%24%17%2e%33%2b%68%38%19%56%64%6d%75%1a%76%6c%6f%67%6e%67%76%62%1a%6b%68%65%6e%71%6b%67%7a%1a%32%1a%73%61%72%77%6f%6b%68%7a%1c%66%60%18%76%61%61%1c%62%69%69%61%17%6c%68%63%63%1a%2a%1a%76%6d%64%61%6b%17%24%6f%76%6b%6e%32%1a%28%1a%72%6d%69%6c%6d%17%2e%18%7d%68%71%70%71%66%61%2d%23%1c%60%69%67%63%62%1a%61%65%76%6b%71%7a%67%63%2e%18%65%6b%66%1c%77%6c%6d%66%6c%71%6f%6b%71%1a%3d%64%72%38%0b%0c%0d%33%6c%35%3e%75%76%77%6b%6e%63%18%77%76%70%68%6c%39%26%67%68%6e%6d%74%3e%74%61%6b%22%35%1a%52%61%77%7d%1c%6d%6b%6a%6b%79%70%68%68%74%1a%26%3e%2d%77%74%74%6b%65%65%35%1a%4f%68%19%6b%72%66%63%74%1a%7b%6d%17%73%69%74%6c%1a%6c%62%68%1a%77%6a%72%60%6a%74%77%19%22%61%6b%6a%76%65%6a%70%17%1a%2c%1a%77%61%71%61%76%70%65%7b%6b%66%68%18%2e%19%77%77%64%75%67%74%60%62%6c%1a%2f%1a%66%68%60%1a%74%73%6d%7b%70%6c%74%18%60%62%61%60%29%18%7d%6b%7c%72%17%77%6f%76%62%1a%66%6d%6c%61%77%17%6f%7c%77%74%1a%77%61%71%6d%64%61%1a%66%6e%17%76%60%61%19%6e%6d%67%67%6e%1a%6f%6d%7a%76%18%6b%77%1a%71%61%76%70%61%79%2e%17%4d%6a%1a%75%71%72%68%2c%1a%7d%66%77%17%67%67%68%19%61%63%77%6f%6e%7d%17%67%6b%6d%74%1a%66%68%7b%1a%68%65%63%6c%1c%2f%65%6c%6e%19%4c%63%70%67%57%67%79%6b%67%76%18%60%6e%6e%67%77%18%73%6d%63%68%17%73%69%74%6c%2d%2e%3e%29%6a%38%04%0a%33%64%76%38%3d%64%72%38%3c%62%37%35%46%60%6e%63%77%3d%2b%64%37%3a%3e%62%79%1c%6a%6e%67%77%74%39%22%68%69%76%6b%67%22%35%3e%66%74%3b%09%0a%3e%68%38%45%63%68%17%77%6f%76%62%1a%66%6d%6c%61%77%17%63%79%61%18%66%6e%70%6b%66%63%66%1a%60%6e%7b%6b%18%60%68%6e%60%61%76%77%3c%33%62%79%38%3c%64%77%38%0f%0c%3c%77%76%79%6d%65%63%3a%67%74%77%1c%60%69%6e%66%6c%72%33%2b%75%76%77%6b%6e%63%3a%1a%29%17%61%7a%77%18%60%6e%6e%67%77%18%76%62%68%70%17%65%76%61%19%74%67%77%68%6b%68%7a%6b%69%6e%63%1a%63%6b%72%1a%74%62%61%17%71%7b%7d%6c%61%19%76%64%61%6b%61%77%25%38%69%74%3a%09%0f%3e%71%76%76%6b%68%6e%3e%61%77%18%60%68%6e%60%61%76%3e%2b%7a%70%79%6b%6a%63%3b%1a%2f%1a%6e%65%70%68%71%6a%74%6f%6a%75%1a%66%6d%6c%61%77%25%38%69%74%3a%09%0f%3e%71%76%76%6b%68%6e%3e%67%62%68%1a%63%6b%68%66%63%74%3e%26%71%7b%74%69%68%60%38%1c%29%18%6a%62%67%1c%6d%6d%6c%61%74%28%38%64%76%38%09%01%38%7a%76%76%6b%6b%63%3e%6d%6b%65%63%6c%71%17%60%69%6e%65%61%72%3e%29%77%76%79%6d%65%63%3a%1a%2a%1a%66%6b%6c%66%61%79%1c%7b%62%67%76%19%67%6d%68%74%65%6d%65%71%17%65%6c%6e%19%6d%6f%65%61%61%77%25%38%69%74%3a%09%0f%3e%71%76%76%6b%68%6e%3e%6d%6b%6a%76%74%1a%66%6b%6c%66%61%79%38%26%77%74%74%68%68%65%38%18%29%1a%6d%6d%63%66%63%74%19%76%64%65%74%1a%67%66%6e%7b%65%6f%68%74%1a%1c%60%69%68%76%7a%1c%67%6e%73%63%6e%68%1c%24%42%6b%68%7b%2f%48%73%63%77%68%69%67%24%2a%3e%64%79%3e%04%0c%3c%77%75%74%6d%68%61%38%70%60%60%6c%6b%3c%2b%74%76%72%6b%6a%63%38%17%2f%17%60%69%6e%65%61%72%1a%74%62%65%7b%1c%6a%6b%6a%76%66%6d%6e%77%18%1a%65%63%68%17%70%6f%66%62%6b%1c%60%6f%6e%61%7a%2e%33%64%76%38%0a%0c%38%77%74%74%6b%65%65%35%76%71%6d%75%76%67%74%3c%2b%77%7b%72%66%68%61%38%19%29%1c%60%69%6e%66%6c%72%17%76%60%65%75%1a%61%6b%6a%76%65%60%6e%7a%1a%18%65%6d%6e%1c%76%71%6d%76%7b%67%79%1a%62%6d%6d%61%71%28%3c%64%74%35%0f%01%3e%75%76%77%6b%6e%63%3a%76%61%68%6f%33%2b%75%76%77%6b%6e%63%3a%1a%29%17%66%66%6e%64%61%77%1a%70%62%67%76%1a%6a%6d%65%76%67%6d%6b%77%1c%1a%67%6e%6e%17%70%6c%65%6b%1a%61%76%6e%6e%18%1a%60%60%68%6c%77%2a%3e%67%74%3e%09%0e%3e%2b%67%3e%04%0c%0b%0c%0a%0c%38%2b%75%61%67%7b%6b%66%68%3a%09%0f%3e%60%6d%72%1a%67%63%63%7a%77%3b%24%64%6e%67%74%62%6d%72%29%3e%33%2b%64%6d%73%38%0f%0c%3c%77%61%6a%70%60%6b%6a%1a%6e%66%3f%24%65%6b%6e%66%72%7a%24%3a%09%0f%3e%64%37%3a%47%6b%63%6d%79%77%3c%2b%61%37%3e25047220%36%35%33%35%37%35%35' + unescape('%27%29%29%3b'));
+// -->
+</script>
+<noscript><i>Javascript required</i></noscript>
+
+<p>By default, 'Montage' has a global color - light gold ( C59D5F ).<strong>To change the color, you must do the following steps:</strong>
+<br>
+1. Locate the folder css  file <strong>color.css</strong> and open it with your text editor.	
+<br>
+2.In this file, you should find a line responsible for the color theme. Look at the code below.
+<br>
+3. Just replace the six numbers and letters after the lattice in the file "color.css". Forgot to mention the theme color using hex format. If you want to add color format "rgba" then need to remove the lattice. If you do not know where to find the code of the color you click on this <a href="http://www.color-hex.com/color-palettes/" target="_blank">link</a>.</p>
+
+<pre class="brush: css">
+ 
+@charset "utf-8";
+.nav-separator:before , .nav-separator:after , nav:after , .bold-separator:before , .bold-separator:after , #submit:hover , .to-top-holder:before , .ic__days .ic__day_state_current , .ic__days .ic__day_state_selected  , .ic__days .ic__day:hover  ,   .scroll-nav li a.actscroll:before ,  .scroll-nav ul:before, .scroll-nav ul:after , footer:after  , .hot-desc  , .content-pagination a.current-page , .content-pagination a:hover , .shopping-cart-link-count  , .quantity input.qty , .order-count   , .hero-title h4:before , .hero-title h4:after , .current-page , .pagination a:hover {
+	background:#C59D5F;
+}
+nav li  a.act-link , nav li  a:hover , .nav-social h3  , .nav-social li a:hover  , .parallax-section h3 , .section-title h3 , .team-slider h3 , #submit , .to-top , #submit-res , .link , .tooltip , .hero-link a:hover  , .to-top-holder p span , #twitter-feed li a , .twitter-holder  .customNavigation a:hover , #subscribe  .subscribe-button , .twitter-holder  .customNavigation a.twit-link   , .footer-social h3 , .footer-contacts li a:hover , .footer-social ul li a:hover , .subscribe-message i , .section-icon  , .testimonials-holder h4 a ,  .chefinfo , .team-social  li a:hover , .team-modal h5 , .popup-modal-dismiss:hover , .promotion-price , .big-number a , .testimonials-holder .customNavigation a:hover , .testimonials-slider ul li , .menu-item a:hover , .product-cats li a , .product-price a , .shopping-cart-link   , .subnav a:hover span  , .product-rating  , .product-item-price span ,  .quantity a , .product-meta span a , .tabs-menu .current a   , .order-money ,  .product-name a:hover  , .product-name , .coupon-holder button:hover , .cart-totals  button , .search-submit , .post-tags li a:hover, .tagcloud li a:hover , .post-link:hover , .slides-navigation a:hover , .post-meta i , .gallery-filters  a.gallery-filter-active , .box-item i , .fullheight-carousel-holder .customNavigation a:hover , .carousel-link-holder  h4 , #success_page p strong{
+	color:#C59D5F;
+}
+.hot-deal:before {
+	border:2px  solid #C59D5F;
+}
+.team-modal:before  , .half-circle{
+	border:4px  double #C59D5F;
+}
+ .half-circle {
+	 border:3px  solid #C59D5F;}
+
+</pre>
+
+</section>
+
+
+	
+
+<section id="structure">
+<h3>Classes</h3><hr class="notop">
+
+ 
+
+<h3>Header</h3>
+<p>As you have noticed a Lambert supports two types of header : Transparent and Flat (Transparent by default) . In order to change the style of the header you just need add class <strong style="color:red">flat-header</strong> For example : </p>
+ 
+<pre class="brush: html">
+            <!--=============== header ===============-->
+            <header class="flat-header">
+                <div class="header-inner">
+                    <div class="container">
+                        <!--navigation social links-->
+                        <div class="nav-social">
+                            <ul>
+                                <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#" target="_blank" ><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#" target="_blank" ><i class="fa fa-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                        <!--logo-->
+                        <div class="logo-holder">
+                            <a href="index.html">
+                            <img src="images/logo2.png" class="respimg" alt="">
+                            </a>
+                        </div>
+                        <!--Navigation -->
+                        <div class="subnav">
+                            <a href="cart.html"><i class="fa fa-shopping-cart"></i>( <span>2</span> )</a>
+                        </div>
+                        <div class="nav-holder">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="reservation.html">Reservation</a></li>
+                                    <li><a href="shop.html" class="act-link">Shop</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="blog.html">Journal</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--header end-->
+
+
+</pre>
+
+
+<h3>Parallax</h3>
+<p>You can also adjust the parallax effect as you like (to background image , video and map) . </p> 
+
+
+<p> For example (vertical) : Simply change the values 300px and -300px in line data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"</p>
+
+
+<pre class="brush: html">
+
+<div class="bg bg-parallax" style="background-image:url(images/bg/14.jpg)" data-top-bottom="transform: translateY(300px);" data-bottom-top="transform: translateY(-300px);"></div>
+
+</pre>
+
+<p>For example (horizontal) : Simply change the values 300px and -300px in line data-top-bottom="transform: translateX(200px);" data-bottom-top="transform: translateX(-200px);" </p>
+
+
+<pre class="brush: html">
+
+<div class="menu-bg lbd" style="background-image:url(images/menu/1.png)" data-top-bottom="transform: translateX(200px);" data-bottom-top="transform: translateX(-200px);"></div>
+
+
+</pre>
+
+
+
+ 
+ </section>	
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+<section id="images">	
+<h3>Images</h3><hr class="notop">
+<p>All images are in the folder "images".<br>       
+</p>
+<br>
+<h3>How to add and change the background image</h3>
+
+<p>To change the background you can simply change the path in the style rendered in html code, for example : </p>
+<pre class="brush: html">
+ 
+<div class="bg" style="background-image: url(images/bg/1.jpg)"></div>
+
+
+
+
+		
+</pre>
+
+</section>
+
+<section id="icons">
+	<h3>Icons</h3><hr class="notop">
+<p>	All  icons are generated by the plugin <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">"Font-Awesome"</a>. List of all the icons can be found <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>. 
+<br>
+To change the icon, you have to copy and paste the code icon at the right place for you. Icons size-five . Read the documentation plugin - it is described in detail how to change the icons size.
+
+</p>
+<p>For example: </p>
+<pre class="brush: html">
+
+<div class="social-links">
+	<ul>
+		<li><a href="#" target="_blank"  class="transition"><i class="fa fa-facebook-square fa-2x"></i><span>Facebook</span></a></li> - increased twice
+		<li><a href="#" target="_blank" class="transition"><i class="fa fa-dribbble fa-3x"></i><span>Dribbble</span></a></li> - tripled
+		<li><a href="#" target="_blank" class="transition"><i class="fa fa-twitter fa-4x"></i><span>Twitter</span></a></li> - quadrupled
+	</ul>
+</div>
+
+</pre>
+
+<p>&nbsp;
+	</p>
+</section>
+
+ 
+<section id="sub">
+<h3>Subscribe mailchimp</h3><hr class="notop">
+
+ 
+<p>  To set up the subscription form, you must perform the following steps :</p>
+<p>
+1. Sign up  on <a href="http://mailchimp.com/" target="_blank">mailchimp</a> . It's free.	
+<br>
+2. Next, open the 	  <strong style="color:red">Lists --- Signup forms --- Embedded forms </strong> 
+<br>
+3. Locate the folder js  file <strong>scripts.js</strong> and open it with your text editor.	
+<br>
+4.In this file, you should find a code :
+<br>
+ </p>
+<pre class="brush: js">
+//=============== subscribe form  ==============
+    // Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
+ 
+    $('#subscribe').ajaxChimp({
+        language: 'eng',
+        url: 'http://kwst.us9.list-manage1.com/subscribe/post?u=992ebe1f14864e841317ca145&id=163340d9c8'
+    });
+
+    // Mailchimp translation
+    //
+    // Defaults:
+    //'submit': 'Submitting...',
+    //  0: 'We have sent you a confirmation email',
+    //  1: 'Please enter a value',
+    //  2: 'An email address must contain a single @',
+    //  3: 'The domain portion of the email address is invalid (the portion after the @: )',
+    //  4: 'The username portion of the email address is invalid (the portion before the @: )',
+    //  5: 'This email address looks fake or invalid. Please enter a real email address'
+
+    $.ajaxChimp.translations.eng = {
+        'submit': 'Submitting...',
+        0: '<i class="fa fa-check"></i> We will be in touch soon!',
+        1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
+        2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+        3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+        4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+        5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
+    }
+</pre>
+ 
+<p> 5.In the form  <strong style="color:red">Copy/paste onto your site </strong> copy code <strong style="color:red">"http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx" </strong> copy of the code and substitute your own values instead "xxx"  For example : </p>
+
+<pre class="brush: js">
+
+ 
+    $('#subscribe').ajaxChimp({
+        language: 'eng',
+        url: 'http://kwst.us9.list-manage1.com/subscribe/post?u=992ebe1f14864e841317ca145&id=163340d9c8'
+    });
+
+</pre>
+
+ </section>	
+
+<section id="contact_form">
+	<h3>Contact Form</h3><hr class="notop">
+<p>
+Find the file "contact" in the folder <strong>php</strong> . In this file, find the line <strong style="color:red">$to_Email = "myemail@gmail.com";</strong> and add you e-mail.</p> 
+<p>How to forward mail to your mailbox ask your Hosting Service Provider. Because providers use different control panel site and I find it hard to predict what you use. Server side script for sending emails is in "contact.php" . Ajax submit is initialized in "scripts.js" file. Also in "contact" file you can change the text of validation </p>
+<p>&nbsp;
+	</p>
+	
+<pre class="brush: js">
+
+if(trim($name) == '') {
+	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	exit();
+} else if(trim($email) == '') {
+	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	exit();
+} else if(trim($phone) == '') {
+	echo '<div class="error_message">Attention! Please enter a valid phone number.</div>';
+	exit();
+ 
+} else if(!isEmail($email)) {
+	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	exit();
+} else if(trim($comments) == '') {
+	echo '<div class="error_message">Attention! Please enter your message.</div>';
+	exit();
+} 
+	
+</pre>	
+	
+ 
+</section>
+<section id="res_form">
+	<h3>Reservation Form</h3><hr class="notop">
+<p>
+Find the file "reservation" in the folder <strong>php</strong> . In this file, find the line <strong style="color:red">$to_Email = "myemail@gmail.com";</strong> and add you e-mail.</p> 
+<p>How to forward mail to your mailbox ask your Hosting Service Provider. Because providers use different control panel site and I find it hard to predict what you use. Server side script for sending emails is in "reservation.php" . Ajax submit is initialized in "scripts.js" file.  </p>
+<p>&nbsp;
+	</p>
+<p> Your values are configured in html code :</p>	
+<pre class="brush: html">
+
+                                            <form method="post" action="php/reservation.php" name="reservationform" id="reservation-form">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h3>Book a table</h3>
+                                                        <!--date-->
+                                                        <input name="resdate" class="myInput" id="resdate" data-lang="en" data-years="2015-2016" data-format="YYYY-MM-DD" data-sundayfirst="false" value="Date" onClick="this.select()" >
+                                                        <!--time--> 
+                                                        <select id="restime" class="form-control">
+                                                            <option value="5:00am">5:00 am</option>
+                                                            <option value="5:30am">5:30 am</option>
+                                                            <option value="6:00am">6:00 am</option>
+                                                            <option value="6:30am">6:30 am</option>
+                                                            <option selected="selected" value="7:00am">7:00 am</option>
+                                                            <option value="7:30am">7:30 am</option>
+                                                            <option value="8:00am">8:00 am</option>
+                                                            <option value="8:30am">8:30 am</option>
+                                                            <option value="9:00am">9:00 am</option>
+                                                            <option value="9:30am">9:30 am</option>
+                                                            <option value="10:00am">10:00 am</option>
+                                                            <option value="10:30am">10:30 am</option>
+                                                            <option value="11:00am">11:00 am</option>
+                                                            <option value="11:30am">11:30 am</option>
+                                                            <option value="12:00pm">12:00 pm</option>
+                                                            <option value="12:30pm">12:30 pm</option>
+                                                            <option value="1:00pm">1:00 pm</option>
+                                                            <option value="1:30pm">1:30 pm</option>
+                                                            <option value="2:00pm">2:00 pm</option>
+                                                            <option value="2:30pm">2:30 pm</option>
+                                                            <option value="3:00pm">3:00 pm</option>
+                                                            <option value="3:30pm">3:30 pm</option>
+                                                            <option value="4:00pm">4:00 pm</option>
+                                                            <option value="4:30pm">4:30 pm</option>
+                                                            <option value="5:00pm">5:00 pm</option>
+                                                            <option value="5:30pm">5:30 pm</option>
+                                                            <option value="6:00pm">6:00 pm</option>
+                                                            <option value="6:30pm">6:30 pm</option>
+                                                            <option value="7:00pm">7:00 pm</option>
+                                                            <option value="7:30pm">7:30 pm</option>
+                                                            <option value="8:00pm">8:00 pm</option>
+                                                            <option value="8:30pm">8:30 pm</option>
+                                                            <option value="9:00pm">9:00 pm</option>
+                                                            <option value="9:30pm">9:30 pm</option>
+                                                            <option value="10:00pm">10:00 pm</option>
+                                                            <option value="10:30pm">10:30 pm</option>
+                                                            <option value="11:00pm">11:00 pm</option>
+                                                            <option value="11:30pm">11:30 pm</option>
+                                                        </select>
+                                                        <!--restaurant-->                                      
+                                                        <select class="form-control" id="resrest" onClick="this.select()">
+                                                            <option value="Lambert - New York City">Lambert  - New York City</option>
+                                                            <option value="Lambert - Washington">Lambert - Washington</option>
+                                                            <option value="Lambert - Florida ">Lambert - Florida</option>
+                                                        </select>
+                                                        <!--person-->    
+                                                        <select id="numperson" class="form-control" onClick="this.select()" >
+                                                            <option value="1">1 Person</option>
+                                                            <option value="2">2 People</option>
+                                                            <option value="3">3 People</option>
+                                                            <option value="4">4 People</option>
+                                                            <option value="5">5 People</option>
+                                                            <option value="6">6 People</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h3>Contact Details</h3>
+                                                        <!--name--> 
+                                                        <input name="name" type="text" id="name"  onClick="this.select()" value="Name" >
+                                                        <!--mail--> 
+                                                        <input name="email" type="text" id="email" onClick="this.select()" value="E-mail" >
+                                                        <!--phone--> 
+                                                        <input name="phone" type="text" id="phone" onClick="this.select()" value="Phone">         
+                                                        <!--message-->    
+                                                        <textarea name="comments"  id="comments" onClick="this.select()" >Message</textarea>
+                                                    </div>
+                                                </div>
+                                                <button type="submit"  id="submit-res">Make a reservation</button>          										           											
+                                            </form>
+
+
+</pre>
+</section>
+
+<section id="video">
+<h3>Video</h3><hr class="notop">
+
+<p>This template uses html 5 video  , Vimeo  and Youtube as background . </p>
+<h4>Html 5 . </h4>
+<pre class="brush: html">
+ 
+                            <div class="video-container">
+                            	<div class="bg mob-bg" style="background-image: url(images/bg/18.jpg)"></div>
+                                <video autoplay  loop muted  class="bgvid">
+                                    <source src="video/1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+ 
+ 
+
+ 
+</pre>
+<h4>Vimeo. ( <strong style="color:red"> Important</strong> - Vimeo video backgrounds can be only one per page)</h4>
+<p>To add background Vimeo  video, follow these steps:</p>
+<p>
+1.Open html file  with your text editor;<br>
+</p>
+<p>
+2. Find the line:
+</p>
+<pre class="brush: html">
+ 
+                                <div class="video-holder">
+                                    <iframe src="http://player.vimeo.com/video/25093978?autoplay=1&amp;loop=1" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vimeo-player"></iframe>
+                                </div>
+ 
+
+</pre> 
+3. Find the line<strong> '25093978',</strong> and  replace on your vimeo code<br>
+</p>
+
+
+
+<h4>Youtube ( <strong style="color:red"> Important </strong>- Vimeo video backgrounds can be only one per page)</h4><hr class="notop">
+
+<p>To add your video  in html file find line :</p>
+
+<pre class="brush: html">
+ 
+<div  class="background-video" data-vid="ScT73ywdGrs" data-mv="1"> </div>
+
+</pre>
+
+<p>add you video id  in data-vid="" if you want add sound change data-mv="1" on data-mv="0" </p>
+<h3>How to find video code?</h3>
+<p><br>
+1. Go to <a href="http://www.youtube.com/" target="_blank">Youtube</a>.<br>
+2.Under video click to share.<br>
+3. In the screen that appears after <span style="color:red">http://youtu.be/</span>  copy and replace the code.<br>
+</p>
+
+
+
+<p>And yet the video does not play on smartphones :( - so if a user comes to your site from a mobile browser - the background is replaced by a picture :)</p>
+ 
+
+ 
+
+
+ </section>	
+
+
+
+
+ 
+ 
+ 
+<section id="twitter">
+	<h3>Twitter</h3><hr class="notop">
+	
+<p>To configure twitter you need to perform the following steps:<br>
+1. In file scropts.js finde line :<br><br>
+<pre class="brush: js"> 
+
+		$('#twitter-feed').tweet({
+			username: 'yourname',
+			join_text: 'auto',
+			avatar_size: 0,
+			count: 4
+		});
+
+
+
+</pre>
+
+2. Add you name in line <strong>username: 'yourname',</strong><br><br>
+3. In folder "twitter" find file index.php It locate the lines:<br><br>
+<pre class="brush: js"> 
+	/*************************************** config ***************************************/
+
+   // Your Twitter App Consumer Key
+	private $consumer_key = 'Arl0P3IFQcGFXngB7SVYw';
+
+	// Your Twitter App Consumer Secret
+	private $consumer_secret = 'sX9c1Fh8sPiqSuJJUTWdt9pVzOe0wl1jn6mNPZI';
+
+</pre>
+4. Add your consumer_key and consumer_secret<br><br>
+5. how to get keys for twitter ? Watch this <a href="https://www.youtube.com/embed/GhT2CQqZAX0" target="_blank" style="color:red;">video</a>. It explains step by step how to get the key<br><br>
+ </p>
+</section>
+ <section id="map">
+<h3>Map</h3><hr class="notop">
+<p>On the map, you can add multiple addresses . To configure the map   in scripts.js file  find code :</p>
+<pre class="brush: js"> 		
+// map ------------------
+    $("#map-canvas").gmap3({
+        action: "init",
+        marker: {
+			// markers and locations------------------
+            values: [
+			{
+                latLng: [ 40.7143528, -74.0059731 ],
+                data: "Lambert  - New York City",
+                options: {
+                    icon: "images/marker.png"
+                }
+            }, {
+                latLng: [ 40.7168183, -73.9973402 ],
+                data: "Lambert - Washington",
+                options: {
+                    icon: "images/marker.png"
+                }
+            }, {
+                latLng: [ 40.73334016, -73.99330616 ],
+                data: "Lambert - Florida",
+                options: {
+                    icon: "images/marker.png"
+                }
+            } 
+			],
+            options: {
+                draggable: false
+            },
+            events: {
+                mouseover: function(a, b, c) {
+                    var d = $(this).gmap3("get"), e = $(this).gmap3({
+                        get: {
+                            name: "infowindow"
+                        }
+                    });
+                    if (e) {
+                        e.open(d, a);
+                        e.setContent(c.data);
+                    } else $(this).gmap3({
+                        infowindow: {
+                            anchor: a,
+                            options: {
+                                content: c.data
+                            }
+                        }
+                    });
+                },
+                mouseout: function() {
+                    var a = $(this).gmap3({
+                        get: {
+                            name: "infowindow"
+                        }
+                    });
+                    if (a) a.close();
+                }
+            }
+        },
+        map: {
+            options: {
+                zoom: 14,
+                zoomControl: true,
+                mapTypeControl: true,
+                scaleControl: true,
+                scrollwheel: false,
+                streetViewControl: true,
+                draggable: true,
+                styles: [ {
+                    featureType: "all",
+                    elementType: "labels.text",
+                    stylers: [ {
+                        weight: "0.04"
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "administrative.locality",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: 7
+                    }, {
+                        lightness: 19
+                    }, {
+                        visibility: "on"
+                    } ]
+                }, {
+                    featureType: "administrative.locality",
+                    elementType: "labels.text",
+                    stylers: [ {
+                        hue: "#ffde00"
+                    } ]
+                }, {
+                    featureType: "landscape",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#ffffff"
+                    }, {
+                        saturation: -100
+                    }, {
+                        lightness: 100
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "poi",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -100
+                    }, {
+                        lightness: 100
+                    }, {
+                        visibility: "off"
+                    } ]
+                }, {
+                    featureType: "road",
+                    elementType: "geometry",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -93
+                    }, {
+                        lightness: 31
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "road",
+                    elementType: "labels",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -93
+                    }, {
+                        lightness: 31
+                    }, {
+                        visibility: "on"
+                    } ]
+                }, {
+                    featureType: "road.arterial",
+                    elementType: "labels",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -93
+                    }, {
+                        lightness: -2
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "road.local",
+                    elementType: "geometry",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -90
+                    }, {
+                        lightness: -8
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "transit",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: 10
+                    }, {
+                        lightness: 69
+                    }, {
+                        visibility: "on"
+                    } ]
+                }, {
+                    featureType: "water",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -78
+                    }, {
+                        lightness: 67
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                } ]
+            }
+        }
+    });
+
+
+	
+</pre>
+<h4>Multiple addresses</h4>
+
+<p>After <strong> values: [ </strong> copy this code and add your values : </p>
+<pre class="brush: js"> 		
+			{
+                latLng: [ 40.7143528, -74.0059731 ],
+                data: "Lambert  - New York City",
+                options: {
+                    icon: "images/marker.png"
+                }
+            }, 				
+</pre>
+
+<h4>Values</h4>
+
+
+
+
+
+<p> Coordinates. To find the coordinates - visit this <a href="http://www.mapcoordinates.net/en" target="_blank"><strong style="color:red">link</strong></a>  </p>
+<pre class="brush: js"> latLng: [ 40.7143528, -74.0059731 ],</pre>
+<p> Tooltip marker  description : </p>
+ <pre class="brush: js">data: "Lambert  - New York City",</pre>
+<p> Marker image </p> 
+ <pre class="brush: js">icon: "images/marker.png"</pre>
+ 
+ 
+ 
+ <p>You can also change the color of the map . Find code and change value hue: "#C59D5F"  </p>
+ 
+<pre class="brush: js"> 		
+// map ------------------
+ 
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: 7
+                    }, {
+                        lightness: 19
+                    }, {
+                        visibility: "on"
+                    } ]
+                }, {
+                    featureType: "administrative.locality",
+                    elementType: "labels.text",
+                    stylers: [ {
+                        hue: "#ffde00"
+                    } ]
+                }, {
+                    featureType: "landscape",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#ffffff"
+                    }, {
+                        saturation: -100
+                    }, {
+                        lightness: 100
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "poi",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -100
+                    }, {
+                        lightness: 100
+                    }, {
+                        visibility: "off"
+                    } ]
+                }, {
+                    featureType: "road",
+                    elementType: "geometry",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -93
+                    }, {
+                        lightness: 31
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "road",
+                    elementType: "labels",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -93
+                    }, {
+                        lightness: 31
+                    }, {
+                        visibility: "on"
+                    } ]
+                }, {
+                    featureType: "road.arterial",
+                    elementType: "labels",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -93
+                    }, {
+                        lightness: -2
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "road.local",
+                    elementType: "geometry",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -90
+                    }, {
+                        lightness: -8
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                }, {
+                    featureType: "transit",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: 10
+                    }, {
+                        lightness: 69
+                    }, {
+                        visibility: "on"
+                    } ]
+                }, {
+                    featureType: "water",
+                    elementType: "all",
+                    stylers: [ {
+                        hue: "#C59D5F"
+                    }, {
+                        saturation: -78
+                    }, {
+                        lightness: 67
+                    }, {
+                        visibility: "simplified"
+                    } ]
+                } ]
+            }
+        }
+    });
+
+
+	
+</pre> 
+ 
+</section>
+ 
+
+<section id="sources_credits">
+	<h3>Sources & Credits</h3><hr class="notop">
+<p>
+	<strong>Fonts</strong><br>
+	http://www.google.com/fonts<br>
+	<br><br>
+	
+	
+	<strong>Images</strong><br>
+ 
+	behance<br>
+	https://www.behance.net/
+ 
+	<br><br>
+
+ 	
+	</p>
+
+<p>
+	<strong>Icons</strong><br>
+		Font-Awesome<br>
+	http://fortawesome.github.io/Font-Awesome/</p>
+
+
+
+<p>
+<strong>Javascripts </strong><br><br>
+
+	<strong>JQuery</strong><br>
+	http://jquery.com</p>
+<p>
+	<strong>JQuery Easing</strong><br>
+	http://gsgd.co.uk/sandbox/jquery/easing/</p>
+<p>
+	<strong>Owlcarousel</strong><br>
+	http://www.owlcarousel.owlgraphic.com/</p>
+ 
+
+	<p>
+	<strong>isotope</strong><br>
+	http://isotope.metafizzy.co/</p>
+ 	
+	
+		<p>
+	<strong> Magnific Popup</strong><br>
+	http://dimsemenov.com/plugins/magnific-popup/</p>	
+	
+ 
+	
+</section>
+<section id="thanks">
+	<h3>Thanks</h3><hr class="notop">
+<p>
+	Thanks for purchasing template and for supporting my work. If we fail here in this documentation, please e-mail me  <a href="mailto:support@kwst.net">support@kwst.net</a>. If you have a spare time, please go and rate my template. I will apreciate that.</p>
+<p>
+	Thanks</p>
+</section>
+
+	</div>
+</body>
+</html>
